@@ -1,0 +1,4 @@
+*.py
+.translate_progress.json
+gotomexico.today/
+__pycache__/

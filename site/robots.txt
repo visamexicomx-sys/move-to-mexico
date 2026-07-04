@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /media/fonts/
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://movetomexico.today/sitemap.xml

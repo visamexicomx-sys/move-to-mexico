@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 60" width="420" height="60">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&amp;display=swap');
+      .logo-text { font-family: 'Montserrat', 'Arial Black', sans-serif; font-weight: 900; font-size: 42px; }
+      .small-text { font-family: 'Montserrat', 'Arial Black', sans-serif; font-weight: 900; font-size: 18px; }
+    </style>
+  </defs>
+  <!-- MOVE — green, white, red (Mexican flag) -->
+  <text x="0" y="46" class="logo-text">
+    <tspan fill="#006847">M</tspan><tspan fill="#FFFFFF" stroke="#CCCCCC" stroke-width="0.5">O</tspan><tspan fill="#CE1126">V</tspan><tspan fill="#006847">E</tspan>
+  </text>
+  <!-- TO (smaller, upper) -->
+  <text x="160" y="22" class="small-text">
+    <tspan fill="#006847">TO</tspan>
+  </text>
+  <!-- MÉXICO — alternating flag colors -->
+  <text x="160" y="46" class="logo-text">
+    <tspan fill="#006847">M</tspan><tspan fill="#FFFFFF" stroke="#CCCCCC" stroke-width="0.5">É</tspan><tspan fill="#CE1126">X</tspan><tspan fill="#006847">I</tspan><tspan fill="#FFFFFF" stroke="#CCCCCC" stroke-width="0.5">C</tspan><tspan fill="#CE1126">O</tspan><tspan fill="#006847">!</tspan>
+  </text>
+</svg>

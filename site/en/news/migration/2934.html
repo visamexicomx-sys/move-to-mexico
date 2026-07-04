@@ -65,16 +65,18 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
-    <li class="nav-item"><a class="nav-link" href="../../visit/">Travel</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../immigration/">Immigration</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../topic/">Topics</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../mexico/">About Mexico</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../news/">News</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../visit/"><i class="bi bi-airplane nav-icon"></i>Travel</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../immigration/"><i class="bi bi-passport nav-icon"></i>Immigration</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../topic/"><i class="bi bi-lightbulb nav-icon"></i>Topics</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../mexico/"><i class="bi bi-globe-americas nav-icon"></i>About Mexico</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../news/"><i class="bi bi-newspaper nav-icon"></i>News</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../services.html"><i class="bi bi-briefcase nav-icon"></i>Services</a></li>
    </ul>
-   <a href="/en/news/migration/2934.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/news/migration/2934.html" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/news/migration/2934.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/news/migration/2934.html" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -88,20 +90,20 @@
  <li class="breadcrumb-item active" aria-current="page">Article</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">Visa-free transit through UK airports has been canceled for Russians and Georgians - Migration news</h1>
  <img src="../../../media/uk-banner.jpg" alt="Russians and Georgians have had their visa-free transit through UK airports changed – Migration News" class="img-fluid rounded mb-4">
  <div class="article-content">
 <p>The UK has canceled visa-free airport transit for Russians and Georgians. From 6 October 2023, citizens of Russia and Georgia will need a UK visa to transit through UK airports. Until this date, it will be possible to make a transfer without a visa only with tickets purchased before September 8. Transit can be used at London Heathrow and Gatwick airports, as well as in Manchester.</p>
-<p>This effectively means that in order to board any flight to the UK, citizens of the two countries must now have a UK visa to enter or transit through the country. The new rule applies even if the passenger has a single ticket through the UK, he does not leave the airport transit area and does not change terminal.</p><div class="inline-topic"></div>
+<p>This effectively means that in order to board any flight to the UK, citizens of the two countries must now have a UK visa to enter or transit through the country. The new rule applies even if the passenger has a single ticket through the UK, he does not leave the airport transit area and does not change terminal.</p>
 <p>The restrictions will not affect those who have visas or residency status in the USA, Canada, Australia, New Zealand, EU states or Switzerland. In addition, a category D visa from one of the EU countries or an Irish visa is suitable for transit. However, in this case, the airline will look at the route when boarding the flight.</p>
-<p>Previously, passengers from Russia and Georgia could transit through UK airports without a visa, as long as they did not have to leave the terminal or go through passport control again. In most cases this only involved connecting flights to British Airways flights.</p><div class="inline-block"></div>
+<p>Previously, passengers from Russia and Georgia could transit through UK airports without a visa, as long as they did not have to leave the terminal or go through passport control again. In most cases this only involved connecting flights to British Airways flights.</p>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Need Help?</h5>
  <p>Get a free consultation from our experts on your question</p>
@@ -137,14 +139,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Your data is protected. We reply within 2 hours.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Need Help?</h5>
- <p class="card-text text-muted">Our specialists will help with immigration, documents and life in Mexico.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -172,7 +166,7 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="sticky-cta d-print-none">
@@ -185,5 +179,6 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="../../../js/interactive.js" defer></script>
 </body>
 </html>

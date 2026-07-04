@@ -65,16 +65,18 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
-    <li class="nav-item"><a class="nav-link" href="../../visit/">Travel</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../immigration/">Immigration</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../topic/">Topics</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../mexico/">About Mexico</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../news/">News</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../visit/"><i class="bi bi-airplane nav-icon"></i>Travel</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../immigration/"><i class="bi bi-passport nav-icon"></i>Immigration</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../topic/"><i class="bi bi-lightbulb nav-icon"></i>Topics</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../mexico/"><i class="bi bi-globe-americas nav-icon"></i>About Mexico</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../news/"><i class="bi bi-newspaper nav-icon"></i>News</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../services.html"><i class="bi bi-briefcase nav-icon"></i>Services</a></li>
    </ul>
-   <a href="/en/visit/visa/2381.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/visit/visa/2381.html" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/visit/visa/2381.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/visit/visa/2381.html" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -88,7 +90,7 @@
  <li class="breadcrumb-item active" aria-current="page">Article</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">You may need a visa when connecting at Paris Airport - Passport and Visas</h1>
@@ -110,7 +112,7 @@
 <li>Ukraine</li></ul>
 <p>A transit visa may be needed if you are making an independent transfer in Paris &#8212; you have separate tickets. In this case, the decision to board a flight to Paris is made by the airline on an individual basis.</p>
 <p>If you are going to leave the airport transit area, in particular to collect your luggage and check in for your next flight, you will in any case need a Schengen visa, not an airport transit visa.</p>
-<p>An airport transit visa may be needed if you follow the requirements described above through<u>any</u>airport in France, not just Paris airport. Transit means that you arrive in France and depart from France to countries outside the Schengen area.</p><div class="inline-topic"></div>
+<p>An airport transit visa may be needed if you follow the requirements described above through<u>any</u>airport in France, not just Paris airport. Transit means that you arrive in France and depart from France to countries outside the Schengen area.</p>
 <p>Examples when a transit visa may be needed by citizens of the Russian Federation:</p>
 <ul><li>Minsk &#8212; Paris &#8212; Mexico City</li>
 <li>Moscow &#8212; Istanbul &#8212; Paris &#8212; Mexico City</li></ul>
@@ -124,11 +126,11 @@
 <li>Gives the right to stay in the transit zone of the airport for no more than 24 hours,</li>
 <li>Does not give the right to leave the transit zone,</li>
 <li>Has the right to be single and double.</li></ul>
-<p>If you want to know more about self-guided visa-free transfers at EU airports, check out this<a href="visit/visa/1558.html" target="_blank" rel="noopener">material</a>.</p><div class="inline-block"></div>
+<p>If you want to know more about self-guided visa-free transfers at EU airports, check out this<a href="visit/visa/1558.html" target="_blank" rel="noopener">material</a>.</p>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Need Help?</h5>
  <p>Get a free consultation from our experts on your question</p>
@@ -164,14 +166,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Your data is protected. We reply within 2 hours.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Need Help?</h5>
- <p class="card-text text-muted">Our specialists will help with immigration, documents and life in Mexico.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -199,7 +193,7 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="sticky-cta d-print-none">
@@ -212,5 +206,6 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="../../../js/interactive.js" defer></script>
 </body>
 </html>

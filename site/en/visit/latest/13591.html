@@ -65,16 +65,18 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
-    <li class="nav-item"><a class="nav-link" href="../../visit/">Travel</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../immigration/">Immigration</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../topic/">Topics</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../mexico/">About Mexico</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../news/">News</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../visit/"><i class="bi bi-airplane nav-icon"></i>Travel</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../immigration/"><i class="bi bi-passport nav-icon"></i>Immigration</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../topic/"><i class="bi bi-lightbulb nav-icon"></i>Topics</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../mexico/"><i class="bi bi-globe-americas nav-icon"></i>About Mexico</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../news/"><i class="bi bi-newspaper nav-icon"></i>News</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../services.html"><i class="bi bi-briefcase nav-icon"></i>Services</a></li>
    </ul>
-   <a href="/en/visit/latest/13591.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/visit/latest/13591.html" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/visit/latest/13591.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/visit/latest/13591.html" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -88,7 +90,7 @@
  <li class="breadcrumb-item active" aria-current="page">Article</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">Rules for entering Guatemala during the quarantine period - Travel news</h1>
@@ -107,7 +109,7 @@
 <li>Oxford, AstraZeneca,</li>
 <li>Moderna,</li>
 <li>Sputnik V</li></ul>
-<p>However, Guatemala accepts proof of vaccination with other vaccines, and there are no requirements regarding which vaccine a foreign traveler should be vaccinated with. Guatemala also includes its citizens vaccinated abroad with other vaccines in the national registry of vaccinated people. A foreign certificate must be issued by a government medical authority.</p><div class="inline-topic"></div>
+<p>However, Guatemala accepts proof of vaccination with other vaccines, and there are no requirements regarding which vaccine a foreign traveler should be vaccinated with. Guatemala also includes its citizens vaccinated abroad with other vaccines in the national registry of vaccinated people. A foreign certificate must be issued by a government medical authority.</p>
 <p>Previously, Guatemala allowed the provision of medical papers of recovery instead of tests, however, the new directives say nothing about this method of confirming the health of the passenger.</p>
 <p>When entering the country, citizens and residents of Guatemala only need to show either a coronavirus test or a vaccination certificate. A rapid test is allowed upon arrival at the airport.</p>
 <p>You should NOT:</p>
@@ -120,11 +122,11 @@
 <p>Important: protective masks must be worn &#171;always and anywhere&#187;. The fines for violating this rule are quite high.</p>
 <p>There is no curfew. Movements between regions are not limited.</p>
 <p>All establishments operate in the country, but with some restrictions. Visits to beaches, resorts and water parks throughout the country are permitted. Fairs and markets are allowed, but parties, concerts and &#171;any other events that create a crowd of people&#187;are prohibited in municipalities in the red and orange zones. There are restrictions on maximum capacity &#8212; 50%. You should close almost all establishments and events at 21:00.</p>
-<p>(updated 07/01/2022)</p><div class="inline-block"></div>
+<p>(updated 07/01/2022)</p>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Need Help?</h5>
  <p>Get a free consultation from our experts on your question</p>
@@ -160,14 +162,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Your data is protected. We reply within 2 hours.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Need Help?</h5>
- <p class="card-text text-muted">Our specialists will help with immigration, documents and life in Mexico.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -195,7 +189,7 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="sticky-cta d-print-none">
@@ -208,5 +202,6 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="../../../js/interactive.js" defer></script>
 </body>
 </html>

@@ -65,16 +65,18 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
-    <li class="nav-item"><a class="nav-link" href="../../visit/">Travel</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../immigration/">Immigration</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../topic/">Topics</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../mexico/">About Mexico</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../news/">News</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../visit/"><i class="bi bi-airplane nav-icon"></i>Travel</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../immigration/"><i class="bi bi-passport nav-icon"></i>Immigration</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../topic/"><i class="bi bi-lightbulb nav-icon"></i>Topics</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../mexico/"><i class="bi bi-globe-americas nav-icon"></i>About Mexico</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../news/"><i class="bi bi-newspaper nav-icon"></i>News</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../services.html"><i class="bi bi-briefcase nav-icon"></i>Services</a></li>
    </ul>
-   <a href="/en/immigration/residence/2591.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/immigration/residence/2591.html" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/immigration/residence/2591.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/immigration/residence/2591.html" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -88,7 +90,7 @@
  <li class="breadcrumb-item active" aria-current="page">Article</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">How not to lose your resident status when leaving and entering Mexico</h1>
@@ -121,7 +123,7 @@
 <p><b>Bottom part</b></p>
 <p>The data you should correspond to is similar at the top of the form.</p>
 <p><b>Fields 1 and 2.</b>First and last name.</p>
-<p><b>Field 3.</b>Your nationality.</p><div class="inline-topic"></div>
+<p><b>Field 3.</b>Your nationality.</p>
 <p><b>Field 4.</b>Date of birth.</p>
 <p><b>Field 5.</b>Floor.</p>
 <p><b>Field 6.</b>Passport number.</p>
@@ -144,11 +146,11 @@
 <p>8. The worst thing about losing your resident status due to improper exit and entry procedures as a tourist is that once you are in Mexico, it is almost impossible to restore this status on your own. You will have to start the whole process all over again, that is, by obtaining a Mexican visa outside the country.</p>
 <p>For this reason, if you realize that you left Mexico without proper FMM registration, if you forgot or lost the upper part of the FMM, under no circumstances cross the border control on entry!</p>
 <p>Contact the Mexican consulate in the country where you are located, present your resident card and explain the situation. If the matter occurs already at the airport, find the INM officer, also present the map and explanations and request<i>regularización de situación migratoria</i>, then wait for his decision. Usually, after checking your identity and status, they will issue you a new FMM or other document (or simply enter your data into the system), and with them you can safely go through border control.</p>
-<p>9. If, as a result of incorrect exit and entry procedures, you still lose your Mexican resident status, contact the services of a lawyer.</p><div class="inline-block"></div>
+<p>9. If, as a result of incorrect exit and entry procedures, you still lose your Mexican resident status, contact the services of a lawyer.</p>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Need Help?</h5>
  <p>Get a free consultation from our experts on your question</p>
@@ -184,14 +186,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Your data is protected. We reply within 2 hours.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Need Help?</h5>
- <p class="card-text text-muted">Our specialists will help with immigration, documents and life in Mexico.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -219,7 +213,7 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="sticky-cta d-print-none">
@@ -232,5 +226,6 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="../../../js/interactive.js" defer></script>
 </body>
 </html>

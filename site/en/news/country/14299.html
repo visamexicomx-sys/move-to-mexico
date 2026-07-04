@@ -65,16 +65,18 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
-    <li class="nav-item"><a class="nav-link" href="../../visit/">Travel</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../immigration/">Immigration</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../topic/">Topics</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../mexico/">About Mexico</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../news/">News</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../visit/"><i class="bi bi-airplane nav-icon"></i>Travel</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../immigration/"><i class="bi bi-passport nav-icon"></i>Immigration</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../topic/"><i class="bi bi-lightbulb nav-icon"></i>Topics</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../mexico/"><i class="bi bi-globe-americas nav-icon"></i>About Mexico</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../news/"><i class="bi bi-newspaper nav-icon"></i>News</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../services.html"><i class="bi bi-briefcase nav-icon"></i>Services</a></li>
    </ul>
-   <a href="/en/news/country/14299.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/news/country/14299.html" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/news/country/14299.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/news/country/14299.html" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -88,7 +90,7 @@
  <li class="breadcrumb-item active" aria-current="page">Article</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">From July 2026, Mexican banks will require biometric identification for large cash transactions.</h1>
@@ -99,18 +101,18 @@
 <p>Specific processes may vary from bank to bank, but in general banks will ask for:</p>
 <ul><li>valid official photo ID (INE or passport),</li>
 <li>reconciliation of client data with the bank questionnaire,</li>
-<li>biometric identification: fingerprints, facial recognition or other methods already used by the bank.</li></ul><div class="inline-topic"></div>
+<li>biometric identification: fingerprints, facial recognition or other methods already used by the bank.</li></ul>
 <p>In other words, banks will check the person who comes with cash with the one who is officially registered in the system. For this reason, it is better to carry out large cash transactions at the bank where you have an account and where your biometric and identification data is already stored.</p>
 <p>Attempting to deposit or purchase a significant amount of cash from &#171;someone else&#187; a bank where you are not a client may result in a refusal from July 2026, even if you have documents. The bank will simply have nothing to compare your data with.</p>
 <p>If a customer attempts to withdraw or deposit more than 140,000 pesos and is not eligible for identification, the bank must:</p>
 <ul><li>refuse to carry out the operation,</li>
 <li>record the operation as incomplete,</li>
 <li>offer to come back later with identification.</li></ul>
-<p>For this reason, it is a good idea to make sure now that your bank information is up to date, notify the bank in advance of planned withdrawals of large amounts, and use electronic transfers instead of cash transactions.</p><div class="inline-block"></div>
+<p>For this reason, it is a good idea to make sure now that your bank information is up to date, notify the bank in advance of planned withdrawals of large amounts, and use electronic transfers instead of cash transactions.</p>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Need Help?</h5>
  <p>Get a free consultation from our experts on your question</p>
@@ -146,14 +148,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Your data is protected. We reply within 2 hours.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Need Help?</h5>
- <p class="card-text text-muted">Our specialists will help with immigration, documents and life in Mexico.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -181,7 +175,7 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="sticky-cta d-print-none">
@@ -194,5 +188,6 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="../../../js/interactive.js" defer></script>
 </body>
 </html>

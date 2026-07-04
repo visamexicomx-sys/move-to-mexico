@@ -66,15 +66,17 @@
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
     <li class="nav-item"><a class="nav-link" href="visit/">Путешествия</a></li>
-    <li class="nav-item"><a class="nav-link" href="immigration/">Иммиграция</a></li>
-    <li class="nav-item"><a class="nav-link" href="topic/">Важные темы</a></li>
+    <li class="nav-item"><a class="nav-link" href="immigration/"><i class="bi bi-passport nav-icon"></i>Иммиграция</a></li>
+    <li class="nav-item"><a class="nav-link" href="topic/"><i class="bi bi-lightbulb nav-icon"></i>Важные темы</a></li>
     <li class="nav-item"><a class="nav-link" href="mexico/">О Мексике</a></li>
-    <li class="nav-item"><a class="nav-link" href="news/">Новости</a></li>
-    <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+    <li class="nav-item"><a class="nav-link" href="news/"><i class="bi bi-newspaper nav-icon"></i>Новости</a></li>
+    <li class="nav-item"><a class="nav-link" href="services.html"><i class="bi bi-briefcase nav-icon"></i>Услуги</a></li>
    </ul>
-   <a href="/en/contacts.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/contacts.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -86,7 +88,7 @@
  <li class="breadcrumb-item active">Напишите нам</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">Напишите нам</h1>
@@ -94,7 +96,7 @@
  <div class="article-content">
 <p>Напишите ваш вопрос.</p>
 <p>В личной переписке мы отвечаем только на вопросы о предоставлении наших <a href="services" target="_blank" rel="noopener">услуг</a>.</p>
-<p>На остальные вопросы мы отвечаем только на страницах нашего сайта. Выберите любую публикацию на близкую тему и задайте вопрос в комментариях под ней. Мы вас обязательно проконсультируем, причем безвозмездно!</p><hr></div><iframe loading="lazy" width="100%" height="500" class="emb emb_iframe" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.041798890707!2d-86.84477562606212!3d21.15073478358055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b432f56d433%3A0xfa1bf6573758f00c!2sGo%20to%20Mexico*21!5e0!3m2!1sru!2smx!4v1729922991340!5m2!1sru!2smx"></iframe><div class="inline-topic"></div>
+<p>На остальные вопросы мы отвечаем только на страницах нашего сайта. Выберите любую публикацию на близкую тему и задайте вопрос в комментариях под ней. Мы вас обязательно проконсультируем, причем безвозмездно!</p><hr></div><iframe loading="lazy" width="100%" height="500" class="emb emb_iframe" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.041798890707!2d-86.84477562606212!3d21.15073478358055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b432f56d433%3A0xfa1bf6573758f00c!2sGo%20to%20Mexico*21!5e0!3m2!1sru!2smx!4v1729922991340!5m2!1sru!2smx"></iframe>
  <div class="inline-cta">
  <h4><i class="bi bi-chat-dots me-1"></i>Остались вопросы?</h4>
  <p class="mb-2">Наши эксперты помогут разобраться в вашей ситуации — бесплатно!</p>
@@ -120,11 +122,12 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="js/interactive.js" defer></script>
 </body></html>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Нужна помощь?</h5>
  <p>Получите бесплатную консультацию по вашему вопросу от наших экспертов</p>
@@ -160,14 +163,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Ваши данные защищены. Ответим в течение 2 часов.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Нужна помощь?</h5>
- <p class="card-text text-muted">Наши специалисты помогут с иммиграцией, документами и жизнью в Мексике.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>Написать в WhatsApp</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -195,8 +190,9 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="js/interactive.js" defer></script>
 </body>
 </html>

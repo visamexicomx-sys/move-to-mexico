@@ -65,16 +65,18 @@
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
   <div class="collapse navbar-collapse" id="mainNav">
    <ul class="navbar-nav me-auto">
-    <li class="nav-item"><a class="nav-link" href="../../../visit/">Travel</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../../immigration/">Immigration</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../../topic/">Topics</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../../mexico/">About Mexico</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../../news/">News</a></li>
-    <li class="nav-item"><a class="nav-link" href="../../../services.html">Services</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../../visit/"><i class="bi bi-airplane nav-icon"></i>Travel</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../../immigration/"><i class="bi bi-passport nav-icon"></i>Immigration</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../../topic/"><i class="bi bi-lightbulb nav-icon"></i>Topics</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../../mexico/"><i class="bi bi-globe-americas nav-icon"></i>About Mexico</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../../news/"><i class="bi bi-newspaper nav-icon"></i>News</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../../services.html"><i class="bi bi-briefcase nav-icon"></i>Services</a></li>
    </ul>
-   <a href="/en/topic/business/tigie/1416.html" class="btn btn-sm btn-outline-light me-2">EN</a>
-   <a href="/topic/business/tigie/1416.html" class="btn btn-sm btn-outline-secondary me-2">RU</a>
-   <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   <div class="mobile-nav-actions">
+    <a href="/en/topic/business/tigie/1416.html" class="btn btn-sm btn-outline-light">EN</a>
+    <a href="/topic/business/tigie/1416.html" class="btn btn-sm btn-outline-secondary">RU</a>
+    <a href="https://wa.me/529987583392" class="btn btn-sm btn-glow"><i class="bi bi-whatsapp me-1"></i>WhatsApp</a>
+   </div>
   </div>
  </div>
 </nav>
@@ -89,7 +91,7 @@
  <li class="breadcrumb-item active" aria-current="page">Article</li>
  </ol>
  </nav>
- <div class="row">
+ <div class="row g-4">
  <div class="col-lg-8">
  <article>
  <h1 class="mb-4">Mexico introduces mandatory electronic declaration of value of imported goods - Mexico Customs</h1>
@@ -106,7 +108,7 @@
 <li>information about the origin of products,</li>
 <li>transportation information,</li>
 <li>import related costs,</li>
-<li>criteria for payment and commercial transaction.</li></ul><div class="inline-topic"></div>
+<li>criteria for payment and commercial transaction.</li></ul>
 <p>Based on this data, customs authorities can check the correctness of the calculation of duties and taxes BEFORE the start of import processing.</p>
 <p>The new system requires storing and downloading electronically a complete set of documents confirming the transaction. Depending on the nature of the supply, you may need:</p>
 <ul><li>commercial invoice,</li>
@@ -121,11 +123,11 @@
 <p>After concluding the transaction, the importer collects a set of supporting documents and generates an electronic dossier through the VUCEM system. The data is signed with an electronic signature e.firma and becomes part of the customs clearance of the cargo.</p>
 <p>To summarize, SAT is allowed to automatically match information from invoices, contracts, payment documentation and customs declarations, including for similar goods. If discrepancies are found, customs may initiate additional inspections.</p>
 <p>SAT explains the reform by the need to combat widespread schemes for undervaluing imported goods and tax evasion.</p>
-<p>For bona fide importers, no significant change in the tax burden is expected. However, the volume of documentary work will increase significantly. Importers will have to more thoroughly document each import transaction, ensure that supporting documents are kept, and monitor the accuracy of information provided by suppliers. Particular attention will need to be paid to the origin of goods, tariff classification and calculation of customs value.</p><div class="inline-block"></div>
+<p>For bona fide importers, no significant change in the tax burden is expected. However, the volume of documentary work will increase significantly. Importers will have to more thoroughly document each import transaction, ensure that supporting documents are kept, and monitor the accuracy of information provided by suppliers. Particular attention will need to be paid to the origin of goods, tariff classification and calculation of customs value.</p>
  </div>
  </article>
  </div>
- <div class="col-lg-4">
+ <div class="col-lg-4 sidebar-widgets">
  <div class="cta-box">
  <h5><i class="bi bi-stars me-1"></i>Need Help?</h5>
  <p>Get a free consultation from our experts on your question</p>
@@ -161,14 +163,6 @@
  <p class="form-text mt-2"><i class="bi bi-shield-check me-1"></i>Your data is protected. We reply within 2 hours.</p>
  </form>
  </div>
- <div class="card border-0 shadow-sm mb-4 sticky-top" style="top:80px">
- <div class="card-body">
- <h5 class="card-title"><i class="bi bi-question-circle me-2"></i>Need Help?</h5>
- <p class="card-text text-muted">Our specialists will help with immigration, documents and life in Mexico.</p>
- <a href="https://wa.me/529987583392" class="btn btn-success w-100"><i class="bi bi-whatsapp me-2"></i>WhatsApp Us</a>
- 
- </div>
- </div>
  </div>
  </div>
 </div>
@@ -196,7 +190,7 @@
  </div>
 </footer>
 
-<a href="https://wa.me/529987583392" class="whatsapp-float"><i class="bi bi-whatsapp"></i></a>
+<a href="https://wa.me/529987583392" class="whatsapp-float" style="bottom:90px"><i class="bi bi-whatsapp"></i></a>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="sticky-cta d-print-none">
@@ -209,5 +203,6 @@
  </div>
 </div>
 <script>window.addEventListener("scroll",()=>{document.querySelector(".navbar-premium")?.classList.toggle("scrolled",window.scrollY>50)});</script>
+<script src="../../../../js/interactive.js" defer></script>
 </body>
 </html>

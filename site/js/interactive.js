@@ -66,14 +66,6 @@ document.querySelectorAll('.article-content img, article img').forEach(function(
   });
 });
 
-// Scroll reveal for sidebar widgets and cards
-var reveals=document.querySelectorAll('.cta-box,.social-proof,.testimonial-card,.lead-form,.card');
-reveals.forEach(function(el){el.classList.add('reveal')});
-var ro=new IntersectionObserver(function(entries){
-  entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target)}})
-},{threshold:0.1});
-reveals.forEach(function(el){ro.observe(el)});
-
 // Smooth anchor scrolling for all internal links
 document.querySelectorAll('a[href^="#"]').forEach(function(a){
   a.addEventListener('click',function(e){

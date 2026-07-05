@@ -1324,6 +1324,15 @@ article > img.img-fluid,
   opacity: 1;
   transform: translateY(0);
 }
+/* sidebar widgets must never be hidden/shifted by reveal (cached JS safety) */
+.sidebar-widgets .cta-box,
+.sidebar-widgets .stats-grid,
+.sidebar-widgets .testimonial-card,
+.sidebar-widgets .lead-form,
+.sidebar-widgets .card {
+  opacity: 1 !important;
+  transform: none !important;
+}
 
 /* ═══════ SIDEBAR SPACING ═══════ */
 .col-lg-4 > .cta-box,

@@ -357,6 +357,25 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Frequently Asked Questions</h2>
+ <div class="accordion" id="faqAcc51209">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc51209i0">Did Mexican residency requirements change in 2026?</button></h3>
+    <div id="faqAcc51209i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc51209"><div class="accordion-body">Yes, financial requirements rose about 20% (they are tied to the minimum wage): temporary residency income is now ~$4,400/month and permanent ~$7,300/month. Exact thresholds vary by consulate.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc51209i1">Where can I follow Mexican migration rule changes?</button></h3>
+    <div id="faqAcc51209i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc51209"><div class="accordion-body">Officially on the INM and Mexican consulate websites. We publish plain-language breakdowns of the changes in our migration news section as they take effect.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc51209i2">Is Mexico tightening its immigration policy?</button></h3>
+    <div id="faqAcc51209i2" class="accordion-collapse collapse" data-bs-parent="#faqAcc51209"><div class="accordion-body">In 2025–2026 Mexico raised financial thresholds and increased border control, but the residency pathways (income, family, work, real estate) remain available.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

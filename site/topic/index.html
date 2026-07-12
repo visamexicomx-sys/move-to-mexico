@@ -433,6 +433,25 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Частые вопросы</h2>
+ <div class="accordion" id="faqAcc46447">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc46447i0">Какие вопросы решают экспаты при жизни в Мексике?</button></h3>
+    <div id="faqAcc46447i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc46447"><div class="accordion-body">Самые частые: свадьба и роды с получением статуса, регистрация бизнеса и налоги (RFC, RESICO), покупка недвижимости через фидеикомисо, медицинская страховка, покупка авто и получение прав, банковский счёт и аренда жилья.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc46447i1">Сколько стоит жизнь в Мексике?</button></h3>
+    <div id="faqAcc46447i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc46447"><div class="accordion-body">Комфортная жизнь в Канкуне для одного — $1 200–$2 000 в месяц. Медстраховка — от $800/год или IMSS. Цены на жильё, авто и услуги подробно разобраны в наших гидах.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc46447i2">Даёт ли рождение ребёнка в Мексике гражданство и ВНЖ?</button></h3>
+    <div id="faqAcc46447i2" class="accordion-collapse collapse" data-bs-parent="#faqAcc46447"><div class="accordion-body">Да. Ребёнок получает гражданство по праву почвы, а родители — право на ПМЖ и гражданство уже через 2 года.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

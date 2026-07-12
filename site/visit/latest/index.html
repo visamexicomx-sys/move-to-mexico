@@ -338,6 +338,21 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Частые вопросы</h2>
+ <div class="accordion" id="faqAcc68614">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc68614i0">Как часто обновляется информация о поездках в Мексику?</button></h3>
+    <div id="faqAcc68614i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc68614"><div class="accordion-body">Мы публикуем новые материалы и обновляем правила въезда, визовые требования и советы по мере изменений. Раздел «Последние публикации» собирает самое свежее.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc68614i1">Что нового во въезде в Мексику в 2026 году?</button></h3>
+    <div id="faqAcc68614i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc68614"><div class="accordion-body">В 2026 году сохраняется электронное разрешение SAE для ряда стран, действует туристический сбор Visitax в Кинтана-Роо, а поезд Майя расширил маршруты по Юкатану.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

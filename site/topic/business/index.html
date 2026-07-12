@@ -345,6 +345,29 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Частые вопросы</h2>
+ <div class="accordion" id="faqAcc60346">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc60346i0">Может ли иностранец открыть компанию в Мексике?</button></h3>
+    <div id="faqAcc60346i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc60346"><div class="accordion-body">Да. Иностранец может владеть 100% мексиканской компании (S.A. de C.V. или S. de R.L. de C.V.) без партнёра-мексиканца. Нужен RFC, электронная подпись e.firma и адрес регистрации.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc60346i1">Что такое RFC и как его получить в Мексике?</button></h3>
+    <div id="faqAcc60346i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc60346"><div class="accordion-body">RFC (Registro Federal de Contribuyentes) — налоговый номер. Получают в SAT онлайн или лично при наличии CURP и ВНЖ/ПМЖ. Без RFC нельзя выставлять счета, открыть бизнес-счёт или платить налоги.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc60346i2">Какие налоги платит бизнес в Мексике в 2026 году?</button></h3>
+    <div id="faqAcc60346i2" class="accordion-collapse collapse" data-bs-parent="#faqAcc60346"><div class="accordion-body">НДС (IVA) — 16%, налог на прибыль компаний (ISR) — 30%. Для малого бизнеса и физлиц доступен упрощённый режим RESICO со ставкой от 1% до 2,5% с оборота.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc60346i3">Что такое режим RESICO в Мексике?</button></h3>
+    <div id="faqAcc60346i3" class="accordion-collapse collapse" data-bs-parent="#faqAcc60346"><div class="accordion-body">RESICO — упрощённый налоговый режим для физлиц с доходом до 3,5 млн песо в год: ставка ISR всего 1–2,5% с оборота, минимум отчётности. Идеален для фрилансеров и малого бизнеса.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

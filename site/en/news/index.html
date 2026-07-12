@@ -267,6 +267,21 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Frequently Asked Questions</h2>
+ <div class="accordion" id="faqAcc88385">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc88385i0">Did Mexican migration rules change in 2026?</button></h3>
+    <div id="faqAcc88385i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc88385"><div class="accordion-body">Yes, financial requirements rose about 20%: temporary residency from ~$4,400/mo, permanent from ~$7,300/mo. Exact thresholds vary by consulate.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc88385i1">What’s new for tourists in Mexico in 2026?</button></h3>
+    <div id="faqAcc88385i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc88385"><div class="accordion-body">The SAE electronic permit applies to several countries, Quintana Roo charges the Visitax tourist fee, and the Maya Train has expanded routes across the Yucatan.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

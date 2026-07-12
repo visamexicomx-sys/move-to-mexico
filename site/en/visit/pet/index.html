@@ -214,6 +214,29 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Frequently Asked Questions</h2>
+ <div class="accordion" id="faqAcc18559">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc18559i0">What documents do I need to bring a dog or cat to Mexico?</button></h3>
+    <div id="faqAcc18559i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc18559"><div class="accordion-body">You need an international veterinary health certificate issued 5–10 days before departure confirming the animal’s health. A rabies vaccination is recommended but, since 2020, no longer formally required for entry.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc18559i1">Is there a quarantine for pets in Mexico?</button></h3>
+    <div id="faqAcc18559i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc18559"><div class="accordion-body">No. Mexico applies no quarantine for dogs and cats with a properly issued vet certificate. SENASICA inspects the animal right at the arrival airport.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc18559i2">How many pets can I bring to Mexico?</button></h3>
+    <div id="faqAcc18559i2" class="accordion-collapse collapse" data-bs-parent="#faqAcc18559"><div class="accordion-body">Up to 3 animals per person without commercial processing. More than that requires an additional procedure and possible fees.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc18559i3">Can I fly with my pet in the cabin?</button></h3>
+    <div id="faqAcc18559i3" class="accordion-collapse collapse" data-bs-parent="#faqAcc18559"><div class="accordion-body">It depends on the airline. Cabin travel is usually allowed for pets up to 8 kg including the carrier; larger animals fly in cargo. Confirm rules and book in advance with the carrier.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

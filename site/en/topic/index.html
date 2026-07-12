@@ -434,6 +434,25 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Frequently Asked Questions</h2>
+ <div class="accordion" id="faqAcc96362">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc96362i0">What do expats deal with living in Mexico?</button></h3>
+    <div id="faqAcc96362i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc96362"><div class="accordion-body">The most common: weddings and births that grant status, business setup and taxes (RFC, RESICO), buying property via fideicomiso, health insurance, buying a car and getting a license, bank accounts and renting.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc96362i1">How much does it cost to live in Mexico?</button></h3>
+    <div id="faqAcc96362i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc96362"><div class="accordion-body">A comfortable single lifestyle in Cancun is $1,200–$2,000/month. Health insurance from $800/year or IMSS. Housing, car and service prices are broken down in our guides.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc96362i2">Does having a baby in Mexico grant citizenship and residency?</button></h3>
+    <div id="faqAcc96362i2" class="accordion-collapse collapse" data-bs-parent="#faqAcc96362"><div class="accordion-body">Yes. The child gets citizenship by birthright, and the parents get permanent residency and citizenship after just 2 years.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

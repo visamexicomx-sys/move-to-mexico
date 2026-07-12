@@ -331,6 +331,29 @@
 </div>
 <script>document.getElementById("catSearch").addEventListener("input",function(){var q=this.value.toLowerCase();document.querySelectorAll(".cat-item").forEach(function(el){el.style.display=el.textContent.toLowerCase().includes(q)?"":"none"});document.querySelectorAll(".cat-group").forEach(function(g){var any=[].slice.call(g.querySelectorAll(".cat-item")).some(function(el){return el.style.display!=="none"});g.style.display=any?"":"none"})});</script>
 
+
+<div class="container my-5 faq-visible">
+ <h2 class="section-title mb-4" style="font-size:1.7rem"><i class="bi bi-patch-question me-2 text-success"></i>Частые вопросы</h2>
+ <div class="accordion" id="faqAcc39903">
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc39903i0">Как иностранцу получить медицинскую помощь в Мексике?</button></h3>
+    <div id="faqAcc39903i0" class="accordion-collapse collapse" data-bs-parent="#faqAcc39903"><div class="accordion-body">Иностранец может лечиться в частных клиниках без страховки (оплата на месте), купить частную медстраховку от $800/год или, имея ВНЖ/ПМЖ, вступить в государственную систему IMSS за фиксированный годовой взнос.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc39903i1">Сколько стоит приём врача в Мексике?</button></h3>
+    <div id="faqAcc39903i1" class="accordion-collapse collapse" data-bs-parent="#faqAcc39903"><div class="accordion-body">Приём терапевта в частной клинике — $30–$60, узкого специалиста — $50–$100. Приём в аптечной клинике (consultorio) — от $3. Государственная медицина по IMSS — бесплатна после уплаты годового взноса.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc39903i2">Что такое IMSS и может ли его оформить иностранец?</button></h3>
+    <div id="faqAcc39903i2" class="accordion-collapse collapse" data-bs-parent="#faqAcc39903"><div class="accordion-body">IMSS — государственная система здравоохранения Мексики. Иностранец с ВНЖ или ПМЖ может добровольно вступить в неё за годовой взнос $400–$700 в зависимости от возраста и получать бесплатное лечение.</div></div>
+   </div>
+   <div class="accordion-item">
+    <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqAcc39903i3">Нужна ли страховка для жизни в Мексике?</button></h3>
+    <div id="faqAcc39903i3" class="accordion-collapse collapse" data-bs-parent="#faqAcc39903"><div class="accordion-body">Юридически не обязательна, но рекомендуется: частная страховка покрывает дорогое стационарное лечение и операции. Для туристов достаточно тревел-страховки, для резидентов — местная частная или IMSS.</div></div>
+   </div>
+ </div>
+</div>
+
 <footer class="footer-premium">
  <div class="container">
   <div class="row g-4 mb-4">

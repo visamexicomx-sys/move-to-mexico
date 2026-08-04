@@ -844,33 +844,33 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
-/* ═══════ WHATSAPP FLOAT ═══════ */
-.whatsapp-float {
+/* ═══════ EMAIL FLOAT ═══════ */
+.email-float {
   position: fixed;
   bottom: 90px;
   right: 24px;
   width: 60px;
   height: 60px;
-  background: #25D366;
+  background: var(--green);
   color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
-  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  box-shadow: 0 4px 20px rgba(0,104,71,0.4);
   z-index: 9999;
   text-decoration: none;
   transition: all 0.3s;
-  animation: waPulse 2s infinite;
+  animation: mailPulse 2s infinite;
 }
-.whatsapp-float:hover {
+.email-float:hover {
   transform: scale(1.12);
   color: #fff;
-  box-shadow: 0 6px 30px rgba(37,211,102,0.6);
+  box-shadow: 0 6px 30px rgba(0,104,71,0.6);
 }
-@keyframes waPulse {
-  0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); }
+@keyframes mailPulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(0,104,71,0.4); }
   50% { box-shadow: 0 4px 30px rgba(37,211,102,0.7); }
 }
 
